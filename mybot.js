@@ -29,4 +29,4 @@ var prefix = config.prefix;
 // });
 
 
-client.login(config.token);    
+//client.login(config.token);    
