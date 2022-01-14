@@ -16,10 +16,9 @@ client.on('messageCreate', async (message) => {
 var prefix = config.prefix;
 
 client.on("message", (message) => {
-if (message.author.bot) return; 
-if (message.content.startsWith(prefix+"say")) {
-message.channel.send("(Insert your message)");
-}};
+    if (message.content.startsWith(prefix+"say"))
+    message.channel.send("(Insert your message)");
+});
 
 
 client.login(config.token);    
