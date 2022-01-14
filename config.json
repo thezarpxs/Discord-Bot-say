@@ -1,5 +1,6 @@
 {
     "prefix":".",
-    "IdOwner":"InsertYourIdHere"           
+    "IdOwner":"InsertYourIdHere"
+    "token":"HereGoesTheToken"
     }
             
