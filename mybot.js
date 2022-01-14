@@ -17,18 +17,9 @@ var prefix = config.prefix;
 
 client.on("message", (message) => {
 if (message.author.bot) return; 
-if (message.content.startsWith(prefix+"ping")) {
-if(!message.member.hasPermisions("ADMINISTRATOR"))return message.channel.send("No tienes permisos")
-message.channel.send("pong!");
-
-} else
-
-    if (message.content.startsWith(prefix+"hola")) {
-message.channel.send("Utiliza el siguiente enlace para fichar!\nhttps://www.opentimeclock.com/app/index.html");
-    }
-    
-
-});
+if (message.content.startsWith(prefix+"say")) {
+message.channel.send("(Insert your message)");
+}};
 
 
 client.login(config.token);    
