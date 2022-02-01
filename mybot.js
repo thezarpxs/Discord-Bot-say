@@ -17,7 +17,7 @@ var prefix = config.prefix;
 
 client.on("message", (message) => {
     if (message.content.startsWith(prefix+"say"))
-    message.channel.send("(Insert your message)");
+    message.channel.send(config.mensaje);
 });
 
 

@@ -1,5 +1,5 @@
 # Bot for discord (.say) 
-Whit this bot you can boradcast messages whit a discord bot, you onli need to change the message in the code (Line 21: Insert your message), then write .say  
+Whit this bot you can boradcast messages whit a discord bot, you onli need to change the message in the [Config.json](https://github.com/thezarpxs/Discord-Bot-say-/blob/main/config.json), then write .say  in the channel that you want to post the message. 
 
 ## Installation
 
@@ -12,7 +12,7 @@ npm install discord.js
 yarn add discord.js
 pnpm add discord.js
 ```
-* In the [Config.json](https://github.com/thezarpxs/Discord-Bot-say-/blob/main/config.json) , change the lines for the token and the OwnerID.
+* In the [Config.json](https://github.com/thezarpxs/Discord-Bot-say-/blob/main/config.json) , change the lines for the token and the OwnerID an add your own message.
 *Open a terminal and bowse to the folder, then run  ```node . ``` as you can see the bot is now online in the discord. 
 
 
